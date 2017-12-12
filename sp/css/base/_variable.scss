@@ -1,0 +1,95 @@
+// **********************************
+//   font-face
+// **********************************
+// @font-face {
+//   font-family: "UTM Alexander";
+//   src: url(asset-path("../fonts/UTM Alexander.ttf"));
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: "futura-medium";
+//   src: url(asset-path("fonts/futura-medium.eot"));
+//   src: url(asset-path("fonts/futura-medium.woff")) format("woff"),
+//   url(asset-path("assets/fonts/futura-medium.ttf")) format("truetype"),
+//   url(asset-path("fonts/futura-medium.svg")) format("svg");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// **********************************
+//   font-family
+// **********************************
+$font-body: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Hiragino Sans, 'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, '游ゴシック  Medium', 'A-OTF Gothic MB101 Pro', meiryo, sans-serif;
+
+$font-gothic: 'A-OTF Gothic MB101 Pro', sans-serif;
+$font-hiragino: 'Hiragino Kaku Gothic Pro', sans-serif;
+
+$font-awesome: "FontAwesome";
+
+// **********************************
+//   COLOR
+// **********************************
+// Brand Color
+$color-primary: #d6e6f0;
+$color-1: #45859f;
+$color-2: #25425c;
+$color-h3: #60adaf;
+$color-h4: #174268;
+
+$color-titPost: #4e8d8f;
+
+
+$color-brd: #dedede;
+$color-brd2: #e2e1dc;
+
+$text-body: #373737;
+// Application Color
+$color-a: #ffffff;
+$color-b: #aaa;
+$color-c: #aaa;
+$color-d: #aaa;
+$color-e: #aaa;
+$color-o: #000;
+
+// **********************************
+//   EXTENDS
+// **********************************
+
+%clearfix {
+    &:after {
+        content: "";
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+}
+%font_20 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+}
+%font_24 {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
+%font_28 {
+    font-size: 2.8rem;
+    line-height: 4.4rem;
+}
+%font_32 {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+}
+%padding_title {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+%padding_text {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+%duration {
+    transition-duration: 400ms;
+}

@@ -1,0 +1,47 @@
+/*    Footer
+--------------------------------------*/
+.footer {
+    @extend %clearfix;
+    font-size: 2.6vw;
+    .infoCompany {
+        .container_box {
+            padding: 0 6.7% 2rem;
+            &.row_01 {
+                background: $color-a;
+                padding: 5rem 8.7% 6.2rem;
+            }
+        }
+        .btn_02 {
+            padding-top: 1.6rem;
+        }
+        .company_info {
+            font-family: $font-hiragino;
+            padding-top: 8.5vw;
+            p {
+                font-size: 3.2vw;
+                line-height: 1.5;
+            }
+            h4 {
+                line-height: 1.5;
+                font-size: 4.5vw;
+                font-weight: normal;
+            }
+        }
+    }
+    .footer_bottom {
+        background: #ededed;
+    }
+    a {
+        font-family: $font-hiragino;
+        border-bottom: 1px solid $color-o;
+    }
+    .container_box {
+        padding: 17px 6.7%;
+    }
+    h3 {
+        font-size: 2.9vw;
+        font-weight: normal;
+        text-align: center;
+        padding-bottom: 18px;
+    }
+}

@@ -1,0 +1,234 @@
+@import "base/variable";
+/*-----------------------
+        Page index
+-----------------------------------------*/
+#topPage {
+    &__local-01 {
+        position: relative;
+        top: -1.5vw;
+        .section_local {
+            background: $color-primary;
+            padding-bottom: 4.4vw;
+        }
+        .container_box {
+            background: $color-a;
+            padding-top: 4.6vw;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .text {
+            color: #252525;
+            font-family: $font-gothic;
+            padding: 0 0 3.2rem;
+            font-size: 4vw;
+            line-height: 1.6;
+        }
+    }
+    &__local-02 {
+        color: #252525;
+        .container_box {
+            background: $color-a;
+            padding: 6.2vw 6.7% 10vw;
+        }
+        .btn {
+            &_02 {
+                padding-top: 6vw;
+            }
+            &_03 {
+                padding-top: 4.6vw;
+            }
+            &_04 {
+                padding-top: 4.4vw;
+            }
+        }
+        .listMenu {
+            li {
+                a {
+                    border: 0.5vw solid $color-brd;
+                    border-top: 0;
+                    padding: 2.5vw 4.8vw 2.2vw;
+                    font-size: 4vw;
+                    line-height: 1.5;
+                    background: url("../images/root/introduce/arrrow_news_blue.png") no-repeat 99% 92%;
+                    display: block;
+                }
+            }
+        }
+    }
+    &__local-03 {
+        background: #f3f3f3;
+        padding: 5.2vw 0;
+        font-family: $font-gothic;
+        .listNews {
+            padding-top: 2.5vw;
+            font-size: 4vw;
+            line-height: 1.5;
+            dt {
+                letter-spacing: 4px;
+                padding-top: 3.7vw;
+                color: $color-1;
+            }
+            a {
+                color: #393939;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.infoCompany_bottom {
+    .container_box {
+        padding: 0 6.7% 2.6vw;
+        &.row_01 {
+            background: $color-a;
+            padding: 6.6vw 8.7% 8.2vw;
+        }
+    }
+    .btn_02 {
+        padding-top: 2.1vw;
+    }
+}
+/*-----------------------
+        Page introduce1
+-----------------------------------------*/
+#intro-01 {
+    &__local-01 {
+        background: url("../images/root/introduce/bg_01_A.jpg") no-repeat;
+        background-size: 100%;
+        .title_h2 {
+            padding: 4rem 0 2rem;
+        }
+        .title_h3 {
+            padding-bottom: 5.6vw;
+            font-weight: bold;
+        }
+        .title_h4 {
+            padding: 2.5rem 0 2rem;
+        }
+        .text {
+            padding-bottom: 7.5vw;
+        }
+    }
+    &__local-02 {
+        .container_box {
+            padding: 2.5vw 6.7%;
+        }
+        .company_info {
+            font-family: $font-hiragino;
+            padding-top: 8.5vw;
+            p {
+                font-size: 3.2vw;
+                line-height: 3.7rem;
+            }
+            h4 {
+                line-height: 4.7rem;
+                font-size: 4.5vw;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+/*-----------------------
+        Page introduce2
+-----------------------------------------*/
+#intro-02 {
+    &__local-01 {
+        .infoPersonal {
+            justify-content: space-between;
+        }
+        .listInfo {
+            font-size: 4vw;
+            line-height: 1.5;
+            .row_info {
+                padding: 4.6vw 0 3.3vw;
+                &:not(:last-child) {
+                    border-bottom: 0.5vw solid $color-brd2;
+                }
+            }
+        }
+        .text {
+            padding-bottom: 7vw;
+        }
+        .title_A {
+            padding-bottom: 2.2vw;
+            padding-left: 5.6vw;
+            background: url('../images/root/introduce/ico_circle.png') no-repeat 0% 15%;
+            background-size: 5%;
+        }
+        .list_content_info {
+            li {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .col_01 {
+                width: 19.6vw;
+            }
+            .col_02 {
+                width: 62.9vw;
+            }
+        }
+    }
+}
+/*-----------------------
+        Page introduce3
+-----------------------------------------*/
+#intro-03 {
+    &__local-01 {
+        padding-bottom: 2vw;
+        .title_h2 {
+            &.first {
+                padding: 5vw 0 5.6vw;
+            }
+        }
+        .row_news {
+            .text {
+                padding: 3vw 0 6.5vw;
+            }
+        }
+    }
+}
+/*-----------------------
+        Page introduce4
+-----------------------------------------*/
+#intro-04__local-01 {
+    .post {
+        padding-top: 4.2vw;
+        .title_h2 {
+            font-size: 4.8vw;
+            color: $color-titPost;
+            border-bottom: 0.6vw solid $color-titPost;
+            padding-bottom: 1.6vw;
+            margin-bottom: 4.2vw;
+        }
+        .description {
+            padding-top: 4vw;
+        }
+    }
+    .document_post {
+        margin: 3.3vw 0 10.6vw;
+        border: 2px solid $color-titPost;
+        text-align: center;
+        font-size: 4.6vw;
+        padding-bottom: 2.6vw;
+        li {
+            padding-top: 2.6vw;
+        }
+    }
+}
+/*-----------------------
+        Responsive for device < 680px
+-----------------------------------------*/
+@media screen and (max-width: 680px) {
+    html {
+        font-size: 7px;
+    }
+}
+/*-----------------------
+        Responsive for device < 590px
+-----------------------------------------*/
+@media screen and (max-width: 590px) {
+    html {
+        font-size: 5px;
+    }
+}

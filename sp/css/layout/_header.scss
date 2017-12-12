@@ -1,0 +1,21 @@
+/*    Header
+--------------------------------------*/
+#header {
+    @extend %clearfix;
+    & > *{
+        float: left;
+    }
+    .logo {
+        width: 51.7%;
+    }
+    .mail {
+        width: 16.1%;
+    }
+    .phone {
+        width: 16.1%;
+    }
+    .btnNav {
+        cursor: pointer;
+        width: 16.1%;
+    }
+}
