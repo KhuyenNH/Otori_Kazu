@@ -8,7 +8,8 @@
         <title>Document</title>
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
-        <link rel="stylesheet" href="css/common/module.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/top.css">
     </head>
     <body>
@@ -19,41 +20,73 @@
             <div class="navSub">
                 <div class="section_local">
                     <ul>
-                        <li class="row_01 primary active">
-                            <a href="">代表・杉山が弁護士になった理由</a>
+                        <li class="row_01">
+                            <a href="">労働問題</a>
+                        </li>
+                        <li class="right row_01">
+                            <a href="">相続・遺言</a>
                         </li>
                         <li>
-                            <a href="">杉山和也の<br>プロフィール</a>
+                            <a href="">離婚</a>
                         </li>
                         <li class="right">
-                            <a href="">杉山をひもとく<br>3つのワード</a>
+                            <a href="">顧問契約</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <!-- /header -->
             <div class="page-main">
-                <div id="intro-03__local-01">
+                <div id="works__local-01">
                     <div class="container_box">
-                        <h2 class="title_h2 first"><img src="images/root/introduce/tit_01_C.jpg" alt="杉山和也をひもとく３つのワード"></h2>
-                        <div class="row_news">
-                            <h2 class="title_h2"><img src="images/root/introduce/tit_02_C.jpg" alt="映画鑑賞"></h2>
-                            <p class="text pB0">映画は小さい頃から大好きでした。法廷ものはもちろん好きですが、基本的にジャンルを問わずなんでもよく観ます。今まで観た中でいちばん気に入っている映画は「黒澤明監督の「天国と地獄」です。サスペンスものの形をとりながら、社会の矛盾点を描いており、非常に感銘を受けました。</p>
+                        <div class="post">
+                            <h2 class="title_h2">労働問題</h2>
+                            <div class="thumbnews"><img src="images/root/works/thumb_news_01_D.jpg" alt=""></div>
+                            <div class="description">
+                                <p class="text">ブラック企業という言葉が流行るほど、労働者と企業間のトラブルは増加しています。解雇・残業代・パワハラ・セクハラなど、職場で起こるトラブルに関しては､専用サイトを設けておりますので､ご覧ください。</p>
+                            </div>
                         </div>
-                        <!-- /row_news -->
-                        <div class="row_news">
-                            <h2 class="title_h2"><img src="images/root/introduce/tit_03_C.jpg" alt="マジック"></h2>
-                            <p class="text">学生の頃、大学のマジックサークルに所属していました。今は多忙なので、マジックをする機会はほぼありませんが、当時はかなりのめり込んでいました。意外かもしれませんが、実はマジシャンと弁護士には共通点があります。それはマジックでも弁護でも、仕事の9割は下準備で終わっていることです。本番前の準備をきちんとするほど、弁護でもマジックでも成功の確率は上がります。学生時代にマジックを習得したことは、今の仕事に少なからず役立っていると思います。</p>
+                        <!-- /post -->
+                        <div class="post">
+                            <h2 class="title_h2">相続・遺言</h2>
+                            <div class="thumbnews"><img src="images/root/works/thumb_news_02_D.jpg" alt=""></div>
+                            <div class="description">
+                                <p class="text">愛人にすべての財産を相続すると遺言状に書かれていた、一手に親の介護を引き受けていたのに遺産相続分が少ない、亡くなった親と同居していた長男があからさまな遺産隠しをしていて兄弟に相続させないつもりだ、など、遺産相続をめぐってはさまざまなトラブルが起こってしまいがちです。<br>遺言書を作成しておくことは、事前の予防策として有効ですが、法律を知らずに作成すると、そもそも遺言としての効力がなかったり、逆にその遺言書が後々トラブルの原因になってしまうこともあり得ます。<br>遺産相続のトラブルや遺言書の作成時にはぜひご相談ください。</p>
+                            </div>
                         </div>
-                        <!-- /row_news -->
-                        <div class="row_news">
-                            <h2 class="title_h2"><img src="images/root/introduce/tit_04_C.jpg" alt="愛犬と散歩"></h2>
-                            <p class="text">６歳になるイングリッシュ・ブルドッグを飼っています。名前は「オードリー」といいます。よく近所の交差点まで散歩に行くのですが、なぜかそこで張り込んで、往来する人たちに挨拶をしています（笑）。忙しい毎日ですが、愛犬には本当に和ませてもらっています。また愛犬との散歩以外にも、時間が空けば目的もなく、よく街をぶらぶらします。近所だったり、知らない街だったり、場所は問いません。歩いていると何かしら新しい発見があるのが楽しいですね。仕事の気分転換にもなります。</p>
+                        <!-- /post -->
+                        <div class="post">
+                            <h2 class="title_h2">離婚</h2>
+                            <div class="thumbnews"><img src="images/root/works/thumb_news_03_D.jpg" alt=""></div>
+                            <div class="description">
+                                <p class="text">離婚問題については、不貞行為やDVに対する責任としての、いわゆる慰謝料や財産分与に関する相談をよく承ります。<br>
+                                    協議離婚以外の離婚は、当事者同士の話し合いで解決するのはむしろ少数で、多くの場合、言い争いで疲弊した状態でお見えになります。<br>
+                                    トラブルが深刻になればなるほど相手と冷静に話す機会をもつことが難しくなってしまいますので、深刻な状態に陥る前に無料相談にお越し下さい。法的根拠にもとづいた今後の見通しや見解をお答えいたします。</p>
+                            </div>
                         </div>
-                        <!-- /row_news -->
+                        <!-- /post -->
+                        <div class="post">
+                            <h2 class="title_h2">顧問契約</h2>
+                            <div class="thumbnews"><img src="images/root/works/thumb_news_04_D.jpg" alt=""></div>
+                            <div class="description">
+                                <p class="text">顧問契約は、企業や個人の方が毎月一定額を法律事務所に支払うことで、問題の種別を問わず顧問弁護士に相談できるというものです。<br>
+                                    「会社でトラブルが起きた。弁護士に電話したい」など、特に企業においては弁護士に相談したいという機会が多いかと思われます。<br>
+                                    顧問契約を結んでいれば、困ったときに「いつでも」顧問弁護士からアドバイスを受けることはもちろん、取引契約書など、簡易な契約書の作成を委託することもできます。<br>
+                                    当法律事務所では、料金体系は右記のものになっておりますが、金額は一応の目安とお考えください。<br>
+                                    ご興味のある方は、ぜひ一度ご相談ください。</p>
+                            </div>
+                        </div>
+                        <!-- /post -->
+                        <div class="document_post">
+                            <h2 class="title_h2"><img src="images/root/introduce/tit_doc_post.jpg" alt=""></h2>
+                            <ul>
+                                <li><p>法 人：50,000円/月</p></li>
+                                <li><p>個 人：30,000円/月</p></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <!-- /intro-03__local-01 -->
+                <!-- /intro-01__local-01 -->
             </div>
             <!-- /page-main -->
             <?php require_once('include/footer.php') ?>

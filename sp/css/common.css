@@ -1,5 +1,5 @@
 @charset "UTF-8";
-#container:after, .listItems:after, #header:after, .footer:after {
+#container:after, .listItems:after, #header:after, #navMain .sub_next:after, .footer:after {
   content: "";
   clear: both;
   display: block;
@@ -70,7 +70,6 @@ body {
 }
 
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -78,20 +77,6 @@ a {
   color: inherit;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
-}
-
-a:hover {
-  color: #d6e6f0;
-  text-decoration: none;
-}
-
-a:hover img {
-  opacity: 0.8;
-}
-
-a:focus {
-  color: #d6e6f0;
-  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h5, h6 {
@@ -111,7 +96,7 @@ button:focus, input:focus, a:focus {
   outline: none;
 }
 
-#container:after, .listItems:after, #header:after, .footer:after {
+#container:after, .listItems:after, #header:after, #navMain .sub_next:after, .footer:after {
   content: "";
   clear: both;
   display: block;
@@ -120,6 +105,10 @@ button:focus, input:focus, a:focus {
 }
 
 /*------------------- Wraper -------------------*/
+body {
+  padding-top: 16.1vw;
+}
+
 #container {
   position: relative;
   background: #fff;
@@ -139,33 +128,28 @@ button:focus, input:focus, a:focus {
 }
 
 .listFlex {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
   -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 /*------------------- Component -------------------*/
 .title_header {
   background: #25425c;
   font-size: 2.4vw;
-  -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #ffffff;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 3.5vw 0 2.6vw;
 }
 
@@ -174,6 +158,7 @@ button:focus, input:focus, a:focus {
 }
 
 .title_h3 {
+  font-weight: bold;
   color: #60adaf;
   font-size: 4vw;
   line-height: 1.5;
@@ -183,32 +168,41 @@ button:focus, input:focus, a:focus {
   color: #174268;
   font-size: 4.5vw;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 .title_A {
   font-size: 4vw;
   line-height: 1.5;
   font-weight: bold;
+  padding-bottom: 1.5vw;
+}
+
+.title_highlight {
+  padding: 14px 0 10px;
+  background: #f6f6f6;
+  font-weight: bold;
+  font-size: 4vw;
+  border-left: 2.4vw solid #82b6c9;
 }
 
 .text {
-  font-size: 4vw;
+  font-size: 3.9vw;
   line-height: 1.7;
 }
 
 .navSub {
   background: #e9e9e9;
-  padding: 3rem 0;
+  padding: 4.2vw 0;
 }
 
 .navSub ul {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 
 .navSub li {
@@ -223,18 +217,17 @@ button:focus, input:focus, a:focus {
 }
 
 .navSub li:after {
-  content: "";
+  content: "\f078 ";
+  font-size: 3.3vw;
+  font-family: 'FontAwesome';
+  color: #25425c;
   position: absolute;
-  top: calc(50% - 1.1vw);
+  top: calc(50% - 2.5vw);
   right: 4vw;
-  background: url("../../images/root/introduce/arrow_down.png") no-repeat;
-  background-size: 100% 100%;
-  width: 3.6vw;
-  height: 2.2vw;
 }
 
 .navSub li.row_01 {
-  margin-bottom: 1.7rem;
+  margin-bottom: 2.3vw;
 }
 
 .navSub li.primary {
@@ -256,21 +249,18 @@ button:focus, input:focus, a:focus {
 }
 
 .navSub li a {
-  padding: 2.4rem 8.5vw 2vw;
+  padding: 2.4vw 8.5vw 2vw;
   color: #25425c;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   min-height: 12vw;
-  -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /*
@@ -301,31 +291,129 @@ button:focus, input:focus, a:focus {
   float: right;
 }
 
+.red {
+  color: #c4253b;
+}
+
+.orange {
+  color: #e4a759;
+}
+
 .pB0 {
   padding-bottom: 0 !important;
 }
 
+.pT0 {
+  padding-top: 0 !important;
+}
+
+.overHidden {
+  overflow: hidden;
+}
+
 /*    Header
 --------------------------------------*/
-#header > * {
-  float: left;
+#header {
+  z-index: 500;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  color: #e38807;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border-bottom: 1px solid #ededed;
+}
+
+#header .fa {
+  font-size: 6vw;
 }
 
 #header .logo {
   width: 51.7%;
 }
 
+#header .iconHeader {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-left: 1px solid #ededed;
+}
+
+#header .nameIcon {
+  padding-top: 2vw;
+  font-size: 2.1vw;
+  line-height: 1.2;
+  text-align: center;
+}
+
 #header .mail {
   width: 16.1%;
+  padding-bottom: 1.2vw;
 }
 
 #header .phone {
   width: 16.1%;
+  padding-bottom: 1.2vw;
 }
 
 #header .btnNav {
-  cursor: pointer;
+  color: #0e1046;
   width: 16.1%;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#header .btnNav .fa {
+  font-size: 9vw;
+}
+
+#navMain {
+  display: none;
+  position: fixed;
+  overflow: auto;
+  top: 16.1vw;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: #ffffff;
+  z-index: 99;
+}
+
+#navMain li a {
+  font-weight: bold;
+  font-size: 3.5vw;
+  display: block;
+  padding: 4.5vw 6vw;
+  border-bottom: 1px solid #ededed;
+}
+
+#navMain .sub_next .fa {
+  float: right;
+}
+
+#navMain .sub_nav_2 {
+  display: none;
+}
+
+#navMain .sub_nav_2 a {
+  padding-left: 10vw;
 }
 
 /*    Footer
@@ -367,16 +455,21 @@ button:focus, input:focus, a:focus {
   background: #ededed;
 }
 
-.footer a {
+.footer .footer_bottom .container_box {
+  padding: 17px 6.7%;
+}
+
+.footer .footer_bottom a {
   font-family: "Hiragino Kaku Gothic Pro", sans-serif;
   border-bottom: 1px solid #000;
 }
 
-.footer .container_box {
-  padding: 17px 6.7%;
+.footer .footer_bottom .copyright {
+  font-size: 2.3vw;
+  font-weight: bold;
 }
 
-.footer h3 {
+.footer .footer_bottom h3 {
   font-size: 2.9vw;
   font-weight: normal;
   text-align: center;

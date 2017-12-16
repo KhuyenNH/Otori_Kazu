@@ -2,7 +2,7 @@
     <div class="infoCompany">
         <div class="container_box">
             <div class="btn">
-                <a href=""><img src="images/root/introduce/btn_07.jpg" alt="相談無料まずはご連絡ください。03-6450-1795[営業時間] 9:30～17:30（平日）メールで相談予約"></a>
+                <a href=""><img src="images/root/top/btn_contact.jpg" alt="相談無料まずはご連絡ください。03-6450-1795[営業時間] 9:30～17:30（平日）メールで相談予約"></a>
             </div>
             <div class="company_info">
                 <p>東京都港区虎ノ門「神谷町」駅より徒歩3分の弁護士事務所</p>
@@ -17,7 +17,7 @@
             <h3>
                 <a href="">プライバシーポリシー</a>
             </h3>
-            <p>Copyright ® HOUWATORANOMON LAW OFFICE All Rights Reserved.</p>
+            <p class="copyright">Copyright ® HOUWATORANOMON LAW OFFICE All Rights Reserved.</p>
         </div>
     </div>
 </footer>

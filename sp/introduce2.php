@@ -8,7 +8,8 @@
         <title>Document</title>
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
-        <link rel="stylesheet" href="css/common/module.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/top.css">
     </head>
     <body>
@@ -41,11 +42,11 @@
                         </div>
                         <div class="listInfo">
                             <div class="row_info first">
-                                <h3 class="title_A">出身地</h3>
+                                <h3 class="title_A"><i class="fa fa-circle-o"></i>出身地</h3>
                                 <p class="text pB0">静岡県</p>
                             </div>
                             <div class="row_info">
-                                <h3 class="title_A">出身地</h3>
+                                <h3 class="title_A"><i class="fa fa-circle-o"></i>静岡県</h3>
                                 <ul class="list_content_info">
                                     <li>
                                         <div class="col_01">平成 4年</div>
@@ -74,7 +75,7 @@
                                 </ul>
                             </div>
                             <div class="row_info">
-                                <h3 class="title_A">役職等</h3>
+                                <h3 class="title_A"><i class="fa fa-circle-o"></i>役職等</h3>
                                 <ul class="list_content_info">
                                     <li>
                                         <div class="col_01">平成18年</div>
@@ -99,7 +100,7 @@
                                 </ul>
                             </div>
                             <div class="row_info">
-                                <h3 class="title_A">資格等</h3>
+                                <h3 class="title_A"><i class="fa fa-circle-o"></i>資格等</h3>
                                 <ul class="list_content_info">
                                     <li>
                                         <div class="col_01">平成25年</div>
@@ -108,7 +109,7 @@
                                 </ul>
                             </div>
                             <div class="row_info">
-                                <h3 class="title_A">著作等</h3>
+                                <h3 class="title_A"><i class="fa fa-circle-o"></i>著作等</h3>
                                 <p class="text">『新労働事件実務マニュアル』ぎょうせい,東京弁護士会労働法制特別委員会編著,共同執筆</p>
                                 <p class="text">『交通事故の責任とは(6)どこまで賠償するのか -相当因果関係-』<br>(財)日本交通安全教育普及協会,月刊誌「交通安全教育」2005.12号 </p>
                                 <p class="text">『交通事故の責任とは(17)自動車を所有しているだけでも責任を負うのか』<br>(財)日本交通安全教育普及協会,月刊誌「交通安全教育」2007.6号</p>

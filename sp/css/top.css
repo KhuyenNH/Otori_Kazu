@@ -47,13 +47,22 @@
   padding-top: 4.4vw;
 }
 
+#topPage__local-02 .listMenu {
+  display: none;
+}
+
+#topPage__local-02 .listMenu.active {
+  display: block;
+}
+
 #topPage__local-02 .listMenu li a {
   border: 0.5vw solid #dedede;
   border-top: 0;
   padding: 2.5vw 4.8vw 2.2vw;
   font-size: 4vw;
   line-height: 1.5;
-  background: url("../images/root/introduce/arrrow_news_blue.png") no-repeat 99% 92%;
+  background: url("../images/root/introduce/arrrow_news_blue.png") no-repeat 99.5% 95%;
+  background-size: 2.5%;
   display: block;
 }
 
@@ -102,7 +111,7 @@
 }
 
 #intro-01__local-01 .title_h2 {
-  padding: 4rem 0 2rem;
+  padding: 5.3vw 0 2.6vw;
 }
 
 #intro-01__local-01 .title_h3 {
@@ -116,6 +125,10 @@
 
 #intro-01__local-01 .text {
   padding-bottom: 7.5vw;
+}
+
+#intro-01__local-01 .pb56 {
+  padding-bottom: 5.6vw;
 }
 
 #intro-01__local-02 .container_box {
@@ -141,11 +154,14 @@
 /*-----------------------
         Page introduce2
 -----------------------------------------*/
+#intro-02__local-01 {
+  padding-top: 8.6vw;
+}
+
 #intro-02__local-01 .infoPersonal {
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #intro-02__local-01 .listInfo {
@@ -167,19 +183,21 @@
 
 #intro-02__local-01 .title_A {
   padding-bottom: 2.2vw;
-  padding-left: 5.6vw;
-  background: url("../images/root/introduce/ico_circle.png") no-repeat 0% 15%;
   background-size: 5%;
 }
 
+#intro-02__local-01 .fa-circle-o {
+  color: #60adaf;
+  margin-right: 8px;
+}
+
 #intro-02__local-01 .list_content_info li {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 
 #intro-02__local-01 .list_content_info .col_01 {
@@ -206,13 +224,13 @@
 }
 
 /*-----------------------
-        Page introduce4
+        Page works
 -----------------------------------------*/
-#intro-04__local-01 .post {
+#works__local-01 .post {
   padding-top: 4.2vw;
 }
 
-#intro-04__local-01 .post .title_h2 {
+#works__local-01 .post .title_h2 {
   font-size: 4.8vw;
   color: #4e8d8f;
   border-bottom: 0.6vw solid #4e8d8f;
@@ -220,11 +238,11 @@
   margin-bottom: 4.2vw;
 }
 
-#intro-04__local-01 .post .description {
+#works__local-01 .post .description {
   padding-top: 4vw;
 }
 
-#intro-04__local-01 .document_post {
+#works__local-01 .document_post {
   margin: 3.3vw 0 10.6vw;
   border: 2px solid #4e8d8f;
   text-align: center;
@@ -232,24 +250,111 @@
   padding-bottom: 2.6vw;
 }
 
-#intro-04__local-01 .document_post li {
+#works__local-01 .document_post li {
   padding-top: 2.6vw;
 }
 
 /*-----------------------
-        Responsive for device < 680px
+        Page step
 -----------------------------------------*/
-@media screen and (max-width: 680px) {
-  html {
-    font-size: 7px;
-  }
+#step__local-01 {
+  padding-top: 4vw;
+}
+
+#step__local-01 .noteStep {
+  color: #e4a759;
+  font-size: 4.5vw;
+  font-weight: bold;
+  padding: 4.6vw 0 1vw;
+}
+
+#step__local-01 .linkPlay {
+  font-size: 4vw;
+  padding-top: 4.2vw;
+  padding-bottom: 3.3vw;
+}
+
+#step__local-01 .linkPlay .fa {
+  color: #e4a759;
+}
+
+#step__local-01 .linkPlay a {
+  margin-left: 6px;
+  text-decoration: underline;
+}
+
+#step__local-01 .note_description {
+  font-size: 3vw;
+  line-height: 1.3;
+  padding-bottom: 4vw;
+}
+
+#step__local-01 .stepItems {
+  padding-top: 4.2vw;
+  padding-bottom: 8vw;
+}
+
+#step__local-01 .stepItems .title_h2 {
+  font-size: 4.8vw;
+  color: #4e8d8f;
+  border-bottom: 0.6vw solid #dfefef;
+  padding-bottom: 1.6vw;
+  margin-bottom: 2.2vw;
+}
+
+#step__local-01 .stepItems .title_A {
+  position: relative;
+  padding-bottom: 0.5vw;
+}
+
+#step__local-01 .box_mail {
+  background: url("../images/root/step/bg_box.jpg");
+  background-size: 100%;
+  padding-bottom: 2.5%;
+  margin-top: -7vw;
+}
+
+#step__local-01 .box_mail h3 {
+  margin-right: -3px;
+}
+
+#step__local-01 .box_mail .content_box {
+  font-size: 3.7vw;
+  width: 95%;
+  margin: auto;
+  background: #ffffff;
+  padding: 2.5%;
+  line-height: 1.5;
 }
 
 /*-----------------------
-        Responsive for device < 590px
+        Page cost
 -----------------------------------------*/
-@media screen and (max-width: 590px) {
-  html {
-    font-size: 5px;
-  }
+#cost__local-01 {
+  padding-top: 8.6vw;
+}
+
+#cost__local-01 .title_h2 {
+  padding-bottom: 2.9vw;
+}
+
+#cost__local-01 .title_h2.brd {
+  font-size: 4.8vw;
+  color: #4e8d8f;
+  border-bottom: 0.6vw solid #dfefef;
+  padding-bottom: 1.6vw;
+  margin-bottom: 2.2vw;
+}
+
+#cost__local-01 .post {
+  font-size: 4vw;
+  padding-bottom: 7.3vw;
+}
+
+#cost__local-01 .list_table li {
+  padding: 2vw 0;
+}
+
+#cost__local-01 .list_table li .title_highlight {
+  margin-bottom: 1.4vw;
 }

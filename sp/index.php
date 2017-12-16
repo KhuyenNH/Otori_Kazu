@@ -8,8 +8,9 @@
     <meta http-equiv="pragma" content="no-cache" />
     <title>Document</title>
     <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="" />
-    <link rel="stylesheet" href="css/common/module.css">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/top.css">
 </head>
 
@@ -19,7 +20,7 @@
         <!-- /header -->
         <div class="page-main">
             <div id="topPage__local-01">
-                <h2 class="title_h2"><img src="images/root/introduce/tit_01.png" alt="明日へ羽ばたく翼になりたい。"></h2>
+                <h2 class="title_h2"><img src="images/root/top/tit_01.png" alt="明日へ羽ばたく翼になりたい。"></h2>
                 <div class="section_local">
                     <div class="container_box">
                         <p class="text">
@@ -37,31 +38,64 @@
             <!-- /topPage__local-01 -->
             <div id="topPage__local-02">
                 <div class="container_box">
-                    <div class="btn">
-                        <a href=""><img src="images/root/introduce/btn_01.jpg" alt="鳳和虎ノ門法律事務所について"></a>
+                    <div class="btn_box">
+                        <div class="btn">
+                            <a href=""><img src="images/root/top/btn_01.jpg" alt="鳳和虎ノ門法律事務所について"></a>
+                        </div>
+                        <ul class="listMenu">
+                            <li><a href="">弁護士紹介</a></li>
+                            <li><a href="">事業内容</a></li>
+                            <li><a href="">ご相談の流れ</a></li>
+                            <li><a href="">費用について</a></li>
+                            <li><a href="">よくある質問</a></li>
+                            <li><a href="">アクセス</a></li>
+                        </ul>
                     </div>
-                    <div class="btn btn_02">
-                        <a href=""><img src="images/root/introduce/btn_02.jpg" alt="労働問題解雇・残業代・セクハラ・パワハラなどの問題"></a>
+                    <!-- /btn_box -->
+                    <div class="btn_box">
+                        <div class="btn btn_02">
+                            <a href=""><img src="images/root/top/btn_02.jpg" alt="労働問題解雇・残業代・セクハラ・パワハラなどの問題"></a>
+                        </div>
+                        <ul class="listMenu active">
+                            <li><a href="">弁護士に相談するメリット</a></li>
+                            <li><a href="">労働問題の解決方法</a></li>
+                            <li><a href="">在職中の方へアドバイス</a></li>
+                            <li><a href="">離職した方へアドバイス</a></li>
+                            <li><a href="">労働トラブルQ&amp;A</a></li>
+                        </ul>
                     </div>
-                    <ul class="listMenu">
-                        <li><a href="">弁護士に相談するメリット</a></li>
-                        <li><a href="">労働問題の解決方法</a></li>
-                        <li><a href="">在職中の方へアドバイス</a></li>
-                        <li><a href="">離職した方へアドバイス</a></li>
-                        <li><a href="">労働トラブルQ&amp;A</a></li>
-                    </ul>
-                    <div class="btn btn_03">
-                        <a href=""><img src="images/root/introduce/btn_03.jpg" alt="離婚慰謝料・財産分与・養育費・DVなど男女間の問題"></a>
+                    <!-- /btn_box -->
+                    <div class="btn_box">
+                        <div class="btn btn_03">
+                            <a href=""><img src="images/root/top/btn_03.jpg" alt="離婚慰謝料・財産分与・養育費・DVなど男女間の問題"></a>
+                        </div>
+                        <ul class="listMenu">
+                            <li><a href="">相談するメリット</a></li>
+                            <li><a href="">解決方法</a></li>
+                            <li><a href="">離婚を考えている方へのアドバイス</a></li>
+                            <li><a href="">解決事例</a></li>
+                            <li><a href="">離婚トラブルQ&amp;A</a></li>
+                        </ul>
                     </div>
-                    <div class="btn btn_04">
-                        <a href=""><img src="images/root/introduce/btn_04.jpg" alt="相続・遺言遺言書の作成・親族間の問題"></a>
+                    <!-- /btn_box -->
+                    <div class="btn_box">
+                        <div class="btn btn_04">
+                            <a href=""><img src="images/root/top/btn_04.jpg" alt="相続・遺言遺言書の作成・親族間の問題"></a>
+                        </div>
+                        <ul class="listMenu">
+                            <li><a href="">相談するメリット</a></li>
+                            <li><a href="">解決方法</a></li>
+                            <li><a href="">遺産を残す立場の方へのアドバイス</a></li>
+                            <li><a href="">解決事例</a></li>
+                            <li><a href="">相続トラブルQ&amp;A</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <!-- /topPage__local-02 -->
             <div id="topPage__local-03">
                 <div class="container_box">
-                    <h2 class="title_h2"><img src="images/root/introduce/tit_02.jpg" alt="トピックス"></h2>
+                    <h2 class="title_h2"><img src="images/root/top/tit_02.jpg" alt="トピックス"></h2>
                     <dl class="listNews">
                         <dt>2017/7/13</dt>
                         <dd><a href="#">杉山弁護士が講演します。</a></dd>
@@ -76,10 +110,10 @@
             <div class="infoCompany_bottom">
                 <div class="container_box row_01">
                     <div class="btn">
-                        <a href=""><img src="images/root/introduce/btn_05.jpg" alt="顧問契約かかりつけの弁護士を持つメリット"></a>
+                        <a href=""><img src="images/root/top/btn_05.jpg" alt="顧問契約かかりつけの弁護士を持つメリット"></a>
                     </div>
                     <div class="btn btn_02">
-                        <a href=""><img src="images/root/introduce/btn_06.jpg" alt="秘書机"></a>
+                        <a href=""><img src="images/root/top/btn_06.jpg" alt="秘書机"></a>
                     </div>
                 </div>
             </div>

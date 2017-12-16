@@ -20,6 +20,18 @@
 .float_right {
     float: right;
 }
+.red {
+    color: $color-red;
+}
+.orange {
+    color: $text-primary;
+}
 .pB0 {
     padding-bottom: 0!important;
+}
+.pT0 {
+    padding-top: 0!important;
+}
+.overHidden {
+    overflow: hidden;
 }

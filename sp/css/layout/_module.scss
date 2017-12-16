@@ -1,5 +1,8 @@
 @import "../base/variable";
 /*------------------- Wraper -------------------*/
+body {
+    padding-top: 16.1vw;
+}
 #container {
     position: relative;
     background: #fff;
@@ -41,6 +44,7 @@
     // padding-bottom: 7%;
 }
 .title_h3 {
+    font-weight: bold;
     color: $color-h3;
     font-size: 4vw;
     line-height: 1.5;
@@ -49,20 +53,29 @@
     color: $color-h4;
     font-size: 4.5vw;
     line-height: 1.5;
+    font-weight: bold;
 }
 .title_A {
     font-size: 4vw;
     line-height: 1.5;
     font-weight: bold;
+    padding-bottom: 1.5vw;
+}
+.title_highlight {
+    padding: 14px 0 10px;
+    background: #f6f6f6;
+    font-weight: bold;
+    font-size: 4vw;
+    border-left: 2.4vw solid #82b6c9;
 }
 .text {
-    font-size: 4vw;
+    font-size: 3.9vw;
     line-height: 1.7;
 }
 
 .navSub {
     background: #e9e9e9;
-    padding: 3rem 0;
+    padding: 4.2vw 0;
     ul {
         display: flex;
         flex-wrap: wrap;
@@ -77,17 +90,16 @@
         width: calc((100% / 2) - 0.8vw + (0px / 2));
         background: $color-a;
         &:after {
-            content: "";
+            content: "\f078 ";
+            font-size: 3.3vw;
+            font-family: 'FontAwesome';
+            color: $color-2;
             position: absolute;
-            top: calc(50% - 1.1vw);
+            top: calc(50% - 2.5vw);
             right: 4vw;
-            background: url('../../images/root/introduce/arrow_down.png') no-repeat;
-            background-size: 100% 100%;
-            width: 3.6vw;
-            height: 2.2vw;
         }
         &.row_01 {
-            margin-bottom: 1.7rem;
+            margin-bottom: 2.3vw;
         }
         &.primary {
             width: 100%;
@@ -104,7 +116,7 @@
             margin-right: 0;
         }
         a {
-            padding: 2.4rem 8.5vw 2vw;
+            padding: 2.4vw 8.5vw 2vw;
             color: $color-2;
             // display: block;
             display: flex;
