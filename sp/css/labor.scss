@@ -1,0 +1,168 @@
+@import "base/variable";
+/* Component labor
+-----------------------------------------*/
+.title_header {
+    background: #418cac;
+}
+.listButton_01 {
+    padding: 0 0 10vw;
+    a {
+        display: block;
+        border: 1vw solid #f0f0f0;
+    }
+}
+/*-----------------------
+        Page merit
+-----------------------------------------*/
+#merit__local-01 {
+    padding-top: 4vw;
+    p {
+        font-size: 3.9vw;
+        line-height: 1.7;
+        padding: 3.2vw 0;
+    }
+    .noteMerit {
+        font-weight: bold;
+        padding: 4.6vw 0 1vw;
+    }
+    .textReply {
+        padding: 4.6vw 0 1vw;
+        line-height: 1.7;
+        font-weight: bold;
+        color: $text-primary;
+    }
+    .note_description {
+        font-size: 3vw;
+        line-height: 1.3;
+        padding-bottom: 4vw;
+    }
+    .meritItems {
+        padding-top: 4.2vw;
+        padding-bottom: 4.5vw;
+        .title_h2 {
+            font-size: 4.8vw;
+            color: $color-titPost;
+            border-bottom: 0.6vw solid #dfefef;
+            line-height: 1.4;
+            padding-bottom: 1.2vw;
+        }
+    }
+    .imgContent {
+        padding: 3vw 0 1.6vw;
+    }
+}
+
+
+/*-----------------------
+        Page solution
+-----------------------------------------*/
+#solution__local-01 {
+    padding-top: 4vw;
+    p {
+        font-size: 3.9vw;
+        line-height: 1.7;
+        padding: 3.2vw 0;
+    }
+    .noteSolution {
+        font-weight: bold;
+        padding: 4.6vw 0 1vw;
+    }
+    .textReply {
+        padding: 4.6vw 0 1vw;
+        line-height: 1.7;
+        font-weight: bold;
+        color: $text-primary;
+    }
+    .linkPlay {
+        .fa {
+            font-size: 8vw;
+        }
+    }
+    .note_description {
+        font-size: 3vw;
+        line-height: 1.3;
+        padding-bottom: 4vw;
+    }
+    .solutionItems {
+        // padding-top: 4.2vw;
+        padding-bottom: 4.5vw;
+        .title_h2 {
+            font-size: 4.8vw;
+            color: $color-titPost;
+            border-bottom: 0.6vw solid #dfefef;
+            line-height: 1.4;
+            padding-bottom: 1.2vw;
+        }
+    }
+    .diagram {
+        text-align: center;
+        font-size: 4.4vw;
+        font-weight: bold;
+        color: #83b6c9;
+        padding-top: 3vw;
+        padding-bottom: 6.5vw;
+        .light {
+            color: $color-a;
+            background: #83b6c9;
+        }
+        h5 {
+            position: relative;
+            z-index: 10;
+            border: 0.4vw solid #83b6c9;
+            padding: 3.4vw;
+            margin-bottom: 2.9vw;
+            background: $color-a;
+            &:after {
+                content: "";
+                position: absolute;
+                z-index: 0;
+                background: #83b6c9;
+                width: 1.5vw;
+                height: 3.4vw;
+                bottom: -3.4vw;
+                left: calc(50% - 1vw);
+            }
+            &.last {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+        .branch_diagram {
+            padding-top: 2vw;
+            position: relative;
+            &:after {
+                content: "";
+                position: absolute;
+                z-index: 0;
+                background: #83b6c9;
+                width: 1.5vw;
+                height: 12vw;
+                top: -6vw;
+                right: calc(50% - 5.4vw);
+                transform: rotate(-60deg);
+            }
+            &:before {
+                content: "";
+                position: absolute;
+                z-index: 0;
+                background: #83b6c9;
+                width: 1.5vw;
+                height: 12vw;
+                top: -6vw;
+                left: calc(50% - 5.4vw);
+                transform: rotate(60deg);
+            }
+            li {
+                float: left;
+                width: 47%;
+                color: $color-a;
+                background: #83b6c9;
+                padding: 3.8vw 2vw 3.4vw;
+            }
+            .right {
+                float: right;
+            }
+        }
+    }
+}

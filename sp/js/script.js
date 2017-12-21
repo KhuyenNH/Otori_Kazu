@@ -14,8 +14,8 @@ $(document).ready(function() {
 
 
     // Accordion btn link
-    $('.btn_box .btn').click(function(event) {
+    $('.accordion').click(function(event) {
         event.preventDefault();
-        $(this).next().stop().slideToggle();
+        $(this).next().slideToggle();
     });
 });

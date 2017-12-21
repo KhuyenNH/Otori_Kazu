@@ -1,3 +1,4 @@
+<?php require_once('include/config.php'); ?>
 <!DOCTYPE html>
 <html lang="ja">
     <head>
@@ -21,13 +22,13 @@
                 <div class="section_local">
                     <ul>
                         <li class="row_01 primary">
-                            <a href="">代表・杉山が弁護士になった理由</a>
+                            <a href="introduce1.php">代表・杉山が弁護士になった理由</a>
                         </li>
                         <li>
-                            <a href="">杉山和也の<br>プロフィール</a>
+                            <a href="introduce2.php">杉山和也の<br>プロフィール</a>
                         </li>
                         <li class="right active">
-                            <a href="">杉山をひもとく<br>3つのワード</a>
+                            <a href="introduce3.php">杉山をひもとく<br>3つのワード</a>
                         </li>
                     </ul>
                 </div>

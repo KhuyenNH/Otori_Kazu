@@ -1,3 +1,4 @@
+<?php require_once('include/config.php'); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -39,47 +40,47 @@
             <div id="topPage__local-02">
                 <div class="container_box">
                     <div class="btn_box">
-                        <div class="btn">
+                        <div class="btn accordion">
                             <a href=""><img src="images/root/top/btn_01.jpg" alt="鳳和虎ノ門法律事務所について"></a>
                         </div>
                         <ul class="listMenu">
-                            <li><a href="">弁護士紹介</a></li>
-                            <li><a href="">事業内容</a></li>
-                            <li><a href="">ご相談の流れ</a></li>
-                            <li><a href="">費用について</a></li>
-                            <li><a href="">よくある質問</a></li>
-                            <li><a href="">アクセス</a></li>
+                            <li><a href="<?php echo BASE_URL ?>introduce1.php">弁護士紹介</a></li>
+                            <li><a href="<?php echo BASE_URL ?>works.php">事業内容</a></li>
+                            <li><a href="<?php echo BASE_URL ?>step.php">ご相談の流れ</a></li>
+                            <li><a href="<?php echo BASE_URL ?>cost.php">費用について</a></li>
+                            <li><a href="<?php echo BASE_URL ?>qa.php">よくある質問</a></li>
+                            <li><a href="<?php echo BASE_URL ?>access.php">アクセス</a></li>
                         </ul>
                     </div>
                     <!-- /btn_box -->
                     <div class="btn_box">
-                        <div class="btn btn_02">
+                        <div class="btn btn_02 accordion">
                             <a href=""><img src="images/root/top/btn_02.jpg" alt="労働問題解雇・残業代・セクハラ・パワハラなどの問題"></a>
                         </div>
-                        <ul class="listMenu active">
-                            <li><a href="">弁護士に相談するメリット</a></li>
-                            <li><a href="">労働問題の解決方法</a></li>
-                            <li><a href="">在職中の方へアドバイス</a></li>
-                            <li><a href="">離職した方へアドバイス</a></li>
-                            <li><a href="">労働トラブルQ&amp;A</a></li>
+                        <ul class="listMenu">
+                            <li><a href="<?php echo BASE_URL ?>labor/merit.php">弁護士に相談するメリット</a></li>
+                            <li><a href="<?php echo BASE_URL ?>labor/solution.php">労働問題の解決方法</a></li>
+                            <li><a href="<?php echo BASE_URL ?>">在職中の方へアドバイス</a></li>
+                            <li><a href="<?php echo BASE_URL ?>">離職した方へアドバイス</a></li>
+                            <li><a href="<?php echo BASE_URL ?>">労働トラブルQ&amp;A</a></li>
                         </ul>
                     </div>
                     <!-- /btn_box -->
                     <div class="btn_box">
-                        <div class="btn btn_03">
+                        <div class="btn btn_03 accordion">
                             <a href=""><img src="images/root/top/btn_03.jpg" alt="離婚慰謝料・財産分与・養育費・DVなど男女間の問題"></a>
                         </div>
                         <ul class="listMenu">
-                            <li><a href="">相談するメリット</a></li>
-                            <li><a href="">解決方法</a></li>
-                            <li><a href="">離婚を考えている方へのアドバイス</a></li>
-                            <li><a href="">解決事例</a></li>
-                            <li><a href="">離婚トラブルQ&amp;A</a></li>
+                            <li><a href="<?php echo BASE_URL ?>">相談するメリット</a></li>
+                            <li><a href="<?php echo BASE_URL ?>">解決方法</a></li>
+                            <li><a href="<?php echo BASE_URL ?>">離婚を考えている方へのアドバイス</a></li>
+                            <li><a href="<?php echo BASE_URL ?>">解決事例</a></li>
+                            <li><a href="<?php echo BASE_URL ?>">離婚トラブルQ&amp;A</a></li>
                         </ul>
                     </div>
                     <!-- /btn_box -->
                     <div class="btn_box">
-                        <div class="btn btn_04">
+                        <div class="btn btn_04 accordion">
                             <a href=""><img src="images/root/top/btn_04.jpg" alt="相続・遺言遺言書の作成・親族間の問題"></a>
                         </div>
                         <ul class="listMenu">
