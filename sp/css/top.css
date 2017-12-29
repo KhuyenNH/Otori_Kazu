@@ -167,9 +167,9 @@
 }
 
 #intro-02__local-01 .infoPersonal {
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 #intro-02__local-01 .listInfo {
@@ -200,12 +200,11 @@
 }
 
 #intro-02__local-01 .list_content_info li {
-  display: -webkit-flex;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #intro-02__local-01 .list_content_info .col_01 {
@@ -417,6 +416,10 @@
 /*-----------------------
         Page QA
 -----------------------------------------*/
+#qa__local-01 {
+  counter-reset: counterQA;
+}
+
 #qa__local-01 p {
   line-height: 1.7;
 }
@@ -437,7 +440,7 @@
 
 #qa__local-01 .qaItems .questionText {
   position: relative;
-  padding: 2.6vw 2.4vw 2.6vw 11vw;
+  padding: 2.6vw 2.4vw 2.6vw 13vw;
   border: 1px solid #d1d1d1;
   line-height: 1.5;
   color: #666;
@@ -447,7 +450,8 @@
 }
 
 #qa__local-01 .qaItems .questionText:before {
-  content: "Q1.";
+  counter-increment: counterQA;
+  content: "Q" counter(counterQA) ".";
   position: absolute;
   left: 2.5vw;
   font-weight: bold;
@@ -477,7 +481,7 @@
 }
 
 #qa__local-01 .qaItems .answerText:before {
-  content: "A.";
+  content: "A. ";
   font-weight: bold;
   color: #e38807;
 }

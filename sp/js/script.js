@@ -7,15 +7,24 @@ $(document).ready(function() {
     });
     $('.btnNav').click(function() {
         $(this).find('i').toggleClass('fa-navicon fa-times');
-        $('#navMain').fadeToggle();
+        $('#navMain').stop().fadeToggle();
         // Disable scroll body
         $('body').toggleClass('overHidden');
     });
 
-
     // Accordion btn link
     $('.accordion').click(function(event) {
         event.preventDefault();
-        $(this).next().slideToggle();
+        $(this).next().stop().slideToggle();
+    });
+
+
+    // Scroll on Top
+    $('.toTop').click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
     });
 });

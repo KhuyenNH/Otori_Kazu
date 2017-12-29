@@ -1,0 +1,184 @@
+/* Component divorce
+-----------------------------------------*/
+.page-main {
+  padding-top: 9vw;
+}
+
+.title_header {
+  background: #a32334;
+}
+
+.title_highlight {
+  border-left: 2.4vw solid #c0384f;
+  padding-left: 2vw;
+}
+
+.listButton_01 {
+  padding: 0 0 10vw;
+}
+
+.listButton_01 a {
+  display: block;
+  border: 1vw solid #f0f0f0;
+}
+
+.imgContent {
+  padding: 2vw 0 3vw;
+}
+
+.title_h2 {
+  padding-top: 2vw;
+  padding-bottom: 2.9vw;
+  line-height: 1.5;
+}
+
+.title_h2.brd {
+  font-size: 4.8vw;
+  color: #4e8d8f;
+  border-bottom: 0.6vw solid #dfefef;
+  padding-bottom: 1.6vw;
+  margin-bottom: 2.2vw;
+}
+
+.post {
+  font-size: 4vw;
+}
+
+.post .text {
+  padding-bottom: 6vw;
+}
+
+.list_table li .title_highlight {
+  margin-bottom: 2.6vw;
+}
+
+.list_number li.text {
+  padding: 0;
+  padding-left: 8.3vw;
+}
+
+.list_number span {
+  display: inline-block;
+  text-indent: -8.3vw;
+}
+
+.list_text {
+  margin-top: 5.2vw;
+}
+
+.list_text p {
+  padding: 2vw 6vw 1.6vw;
+}
+
+.list_text p.title {
+  font-weight: bold;
+  font-size: 4.2vw;
+  text-align: center;
+}
+
+.list_text.red {
+  margin-top: 2.6vw;
+  border-top: 2px solid #e7bdc4;
+  border-left: 2px solid #e7bdc4;
+  border-right: 2px solid #e7bdc4;
+}
+
+.list_text.red p {
+  border-bottom: 2px solid #e7bdc4;
+  color: #bb3e53;
+}
+
+.list_text.red p.title {
+  color: #c5485d;
+  background: #f3e1e7;
+}
+
+.list_text.gray {
+  border-top: 2px solid #b6b6b6;
+  border-left: 2px solid #b6b6b6;
+  border-right: 2px solid #b6b6b6;
+  margin-bottom: 4.2vw;
+}
+
+.list_text.gray p {
+  border-bottom: 2px solid #b6b6b6;
+  color: #686868;
+}
+
+.list_text.gray p.title {
+  color: #5b5b5b;
+  background: #e9e9e9;
+}
+
+.toTop {
+  text-align: right;
+  font-size: 4vw;
+  color: #010101;
+  border-bottom: 2px solid #c4c4c4;
+  padding-bottom: 3.5vw;
+}
+
+/*-----------------------
+        Page trouble
+-----------------------------------------*/
+#trouble__local-01 .title_h2 {
+  margin-bottom: 4vw;
+}
+
+#trouble__local-01 .title_qa {
+  padding-left: 12vw;
+  background: url("../images/divorce/trouble/icon_Q_red.png") no-repeat;
+  background-position: top left;
+  background-size: 12%;
+  font-size: 4.2vw;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-bottom: 4.5vw;
+}
+
+#trouble__local-01 .answerText {
+  line-height: 1.6;
+  font-size: 4vw;
+  padding-bottom: 6vw;
+}
+
+#trouble__local-01 .answerText:before {
+  content: "A. ";
+  font-weight: bold;
+}
+
+#trouble__local-01 .table_qa_top {
+  padding: 0vw 4.6vw 4vw;
+  background: #f2dee4;
+  font-size: 4vw;
+  margin-bottom: 9vw;
+}
+
+#trouble__local-01 .table_qa_top .group_qa {
+  padding-top: 6vw;
+}
+
+#trouble__local-01 .table_qa_top .title_qa_top {
+  font-weight: bold;
+  padding-bottom: 2.5vw;
+  line-height: 1.5;
+}
+
+#trouble__local-01 .table_qa_top .text {
+  padding-bottom: 6vw;
+}
+
+#trouble__local-01 .table_qa_top .link_question {
+  line-height: 1.5;
+  padding-bottom: 2vw;
+}
+
+#trouble__local-01 .table_qa_top .link_question a {
+  text-decoration: underline;
+}
+
+#trouble__local-01 .table_qa_top .link_question:before {
+  content: "Q. ";
+  color: #a33e4f;
+  font-weight: bold;
+}
