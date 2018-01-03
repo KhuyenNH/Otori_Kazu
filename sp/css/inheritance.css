@@ -132,3 +132,21 @@
   color: #6d4d7e;
   font-weight: bold;
 }
+
+/*-----------------------
+        Page case
+-----------------------------------------*/
+#case_local-01 .post {
+  padding-bottom: 8vw;
+}
+
+#case_local-01 .box_details {
+  margin-top: 7vw;
+  border: 1.2vw solid #ebe4ef;
+  padding: 2vw 3.6vw;
+}
+
+#case_local-01 .box_details .title_h3 {
+  margin-top: -11vw;
+  margin-bottom: 2vw;
+}

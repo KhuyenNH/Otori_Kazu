@@ -182,3 +182,32 @@
   color: #a33e4f;
   font-weight: bold;
 }
+
+/*-----------------------
+        Page solution
+-----------------------------------------*/
+#solution__local-01 .imgContent {
+  padding: 11vw 0 1.4vw;
+}
+
+#solution__local-01 .solutionItems {
+  padding-bottom: 8.6vw;
+}
+
+/*-----------------------
+        Page case
+-----------------------------------------*/
+#case_local-01 .post {
+  padding-bottom: 9.5vw;
+}
+
+#case_local-01 .box_details {
+  margin-top: 7vw;
+  border: 1.2vw solid #f2dee4;
+  padding: 2vw 3.6vw;
+}
+
+#case_local-01 .box_details .title_h3 {
+  margin-top: -11vw;
+  margin-bottom: 2vw;
+}

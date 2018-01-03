@@ -192,6 +192,33 @@ body {
   line-height: 1.7;
 }
 
+.title_tag {
+  padding: 2.3vw 5vw 2vw;
+  background: #8c8c8c;
+  font-size: 4.2vw;
+  color: #ffffff;
+  border-radius: 50px;
+  display: inline-block;
+  margin-bottom: 2vw;
+}
+
+.title_tag.red {
+  background: #a33e4f;
+}
+
+.title_tag.purple {
+  background: #6d4d7e;
+}
+
+.title_tag.blue {
+  background: #4e8d8f;
+}
+
+.title_tag.orange {
+  background: #e38807;
+  color: #ffffff;
+}
+
 .linkPlay {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -335,6 +362,14 @@ body {
 
 .mB0 {
   margin-bottom: 0 !important;
+}
+
+.mB24 {
+  margin-bottom: 2.4vw !important;
+}
+
+.mR-6 {
+  margin-right: -6%;
 }
 
 .pB0 {

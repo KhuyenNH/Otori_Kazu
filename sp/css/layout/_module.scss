@@ -38,12 +38,6 @@ body {
         font-size: 4.8vw;
     }
 }
-.title_h2 {
-    // text-align: center;
-    // padding-top: 7%;
-    // padding-bottom: 7%;
-}
-
 .title_h3 {
     font-weight: bold;
     color: $color-h3;
@@ -73,7 +67,28 @@ body {
     font-size: 3.9vw;
     line-height: 1.7;
 }
-
+.title_tag {
+    padding: 2.3vw 5vw 2vw;
+    background: #8c8c8c;
+    font-size: 4.2vw;
+    color: $color-a;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 2vw;
+    &.red {
+        background: #a33e4f;
+    }
+    &.purple {
+        background: #6d4d7e;
+    }
+    &.blue {
+        background: #4e8d8f;
+    }
+    &.orange {
+        background: #e38807;
+        color: $color-a;
+    }
+}
 .linkPlay {
     display: flex;
     align-items: center;
