@@ -41,58 +41,12 @@
                             </div>
                         </div>
                         <!-- /post -->
-                        <div class="post">
+                        <div class="post" id="anchor_costTitle">
                             <h2 class="title_h2 brd">着手金及び報酬金について</h2>
                             <div class="description">
                                 <p class="text">※料金はご依頼内容によって増減する場合があります。</p>
-                                <div class="table_cost">
-                                    <h4><span class="ico_number">1</span>経済的利益の額が<span class="yellow">300万円以内</span>の場合</h4>
-                                    <ul class="row_list_cost">
-                                        <li>
-                                            <h5>着手金</h5>
-                                            <p>8％</p>
-                                        </li>
-                                        <li>
-                                            <h5>報酬金</h5>
-                                            <p>16％</p>
-                                        </li>
-                                    </ul>
-                                    <!-- /row -->
-                                    <h4><span class="ico_number">2</span>経済的利益の額が<span class="yellow">300万円を超え3,000万円以内</span>の場合</h4>
-                                    <ul class="row_list_cost">
-                                        <li>
-                                            <h5>着手金</h5>
-                                            <p>5％＋9万円</p>
-                                        </li>
-                                        <li>
-                                            <h5>報酬金</h5>
-                                            <p>10％＋18万円</p>
-                                        </li>
-                                    </ul>
-                                    <!-- /row -->
-                                    <h4><span class="ico_number">3</span>経済的利益の額が<span class="yellow">3,000万円を超え3億円以内</span>の場合</h4>
-                                    <ul class="row_list_cost">
-                                        <li>
-                                            <h5>着手金</h5>
-                                            <p>3％＋69万円</p>
-                                        </li>
-                                        <li>
-                                            <h5>報酬金</h5>
-                                            <p>6％＋138万円</p>
-                                        </li>
-                                    </ul>
-                                    <!-- /row -->
-                                    <h4><span class="ico_number">4</span>経済的利益の額が<span class="yellow">3億円を超える</span>場合</h4>
-                                    <ul class="row_list_cost mB0">
-                                        <li>
-                                            <h5>報酬金</h5>
-                                            <p>2％＋369万円</p>
-                                        </li>
-                                        <li>
-                                            <h5>報酬金</h5>
-                                            <p>4％＋738万円</p>
-                                        </li>
-                                    </ul>
+                                <div class="imgContent">
+                                    <img src="images/root/cost/img_01.png" alt="1経済的利益の額が300万円以内 の場合着手金8%報酬金16%2経済的利益の額が300万円を超え3,000万円以内 の場合着手金5％＋9万円報酬金10％＋18万円3経済的利益の額が3,000万円を超え3億円以内 の場合着手金3％＋69万円報酬金6％＋138万円4経済的利益の額が3億円を超える場合着手金2％＋369万円報酬金4％＋738万円">
                                 </div>
                             </div>
                         </div>

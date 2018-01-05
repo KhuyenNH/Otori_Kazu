@@ -34,7 +34,7 @@
                             <div class="description">
                                 <p class="text">事業主と労働者の間のトラブルを迅速に解決するために設けられた制度です。地方裁判所で行います。そのため、特定社会保険労務士や司法書士は、代理人になることができません。<br>労働審判は、原則として３回以内の審議で審判に至ります。<span class="orange2 bold">短期間で自分の主張を立証する必要に迫られますので、サポートの弁護士を付けられることをおすすめします。</span></p>
                                 <p class="text">審判までの流れは、裁判所のHPをご参照ください。労働審判で和解に至らなければ、裁判での解決をめざして訴訟手続きに移ることになります。</p>
-                                <p class="linkPlay"><i class="fa fa-play-circle"></i><a href="">裁判所「労働審判手続き」について</a></p>
+                                <p class="linkPlay"><i class="fa fa-play-circle"></i><a href="http://www.courts.go.jp/saiban/syurui_minzi/minzi_02_03/" target="_blank">裁判所「労働審判手続き」について</a></p>
                             </div>
                             <div class="diagram">
                                 <h5 class="light">労働審判申立て</h5>

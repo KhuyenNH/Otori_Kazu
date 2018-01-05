@@ -58,6 +58,7 @@
 }
 
 .toTop {
+  text-decoration: underline;
   text-align: right;
   font-size: 4vw;
   color: #010101;
@@ -128,6 +129,11 @@
   content: "Q. ";
   color: #6d4d7e;
   font-weight: bold;
+}
+
+#trouble__local-01 .toTop {
+  margin-bottom: 8vw;
+  border-bottom: 1px solid #c4c4c4;
 }
 
 /*-----------------------

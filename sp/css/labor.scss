@@ -25,6 +25,7 @@
     color: #010101;
     border-bottom: 2px solid #c4c4c4;
     padding-bottom: 3.5vw;
+    text-decoration: underline;
 }
 /* Custom checkbox*/
 input[type=checkbox] {
@@ -216,6 +217,19 @@ input[type=checkbox] {
             font-weight: bold;
         }
     }
+    .table_rep {
+        td {
+            font-size: 3.6vw;
+            line-height: 1.5;
+            vertical-align: top;
+            padding-bottom: 2vw;
+            &:first-child {
+                font-weight: bold;
+                padding-left: 0px;
+            }
+            padding-left: 10px;
+        }
+    }
     .table_qa_top {
         padding: 0vw 4.6vw 4vw;
         background: #f4fcff;
@@ -245,8 +259,12 @@ input[type=checkbox] {
             }
         }
     }
+    .toTop {
+        margin-bottom: 8vw;
+        border-bottom: 1px solid #c4c4c4;
+    }
     .listButton_01 {
-        padding-top: 18vw;
+        padding-top: 10vw;
     }
 }
 /*-----------------------
@@ -254,9 +272,6 @@ input[type=checkbox] {
 -----------------------------------------*/
 #advice1__local-01 {
     padding-top: 9vw;
-    .listCheckBox {
-        padding-top: 6.5vw;
-    }
     .post {
         padding-bottom: 8vw;
         .title_h2 {
@@ -268,15 +283,6 @@ input[type=checkbox] {
         padding: 2.2vw 0;
     }
     .orange2 {
-        font-weight: bold;
-    }
-    .itemsCheck {
-        padding-bottom: 4.6vw;
-        color: #418cac;
-        line-height: 1.5;
-        padding-left: 5.6vw;
-        text-indent: -1.6vw;
-        font-size: 4vw;
         font-weight: bold;
     }
     .box_details {
@@ -297,6 +303,18 @@ input[type=checkbox] {
     .listCheckBox {
         padding-top: 6.5vw;
     }
+    .itemsCheck {
+        padding-bottom: 4.6vw;
+        color: #418cac;
+        line-height: 1.5;
+        padding-left: 5vw;
+        text-indent: -2.5vw;
+        font-size: 4vw;
+        font-weight: bold;
+        .fa {
+            margin-right: 1.5vw;
+        }
+    }
     .post {
         padding-bottom: 8vw;
         .title_h2 {
@@ -305,15 +323,6 @@ input[type=checkbox] {
         }
     }
     .orange2 {
-        font-weight: bold;
-    }
-    .itemsCheck {
-        padding-bottom: 4.6vw;
-        color: #418cac;
-        line-height: 1.5;
-        padding-left: 5.6vw;
-        text-indent: -1.6vw;
-        font-size: 4vw;
         font-weight: bold;
     }
     .box_details {

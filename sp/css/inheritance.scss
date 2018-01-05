@@ -54,6 +54,7 @@
     }
 }
 .toTop {
+    text-decoration: underline;
     text-align: right;
     font-size: 4vw;
     color: #010101;
@@ -127,6 +128,10 @@
                 font-weight: bold;
             }
         }
+    }
+    .toTop {
+        margin-bottom: 8vw;
+        border-bottom: 1px solid #c4c4c4;
     }
 }
 

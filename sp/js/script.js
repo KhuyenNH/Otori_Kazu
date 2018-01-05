@@ -36,4 +36,13 @@ $(document).ready(function() {
         }, 1000);
         return false;
     });
+
+    var hastUrl = $(location).attr('hash');
+    if ($(hastUrl).length) {
+        if(hastUrl === hastUrl) {
+            $('html, body').animate({
+                scrollTop: $(hastUrl).offset().top - 70
+            }, 400);
+        }
+    }
 });

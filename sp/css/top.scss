@@ -307,60 +307,63 @@
             }
         }
     }
-    .table_cost {
-        margin-top: 10px;
-        background: #eaeaea;
-        padding: 2.5vw;
-        color: #9fbdc9;
-        line-height: 1.6;
-        .yellow {
-            color: $yellow;
-            border: 1px solid $yellow;
-            padding: 2px 2px;
-        }
-        .ico_number {
-            background: #9fbdc9;
-            color: #eaeaea;
-            font-size: 3vw;
-            padding: 1.2vw 1.5vw 0.4vw;
-            margin-right: 5px;
-        }
-        h4 {
-            padding-bottom: 1.3vw;
-            font-size: 2.8vw;
-        }
-        h5 {
-            font-size: 2.8vw;
-            width: 40%;
-            background: url('../images/root/cost/pattern.png');
-            background-size: 100%;
-        }
-        .row_list_cost {
-            @extend %clearfix;
-            border: 1px solid #9fbdc9;
-            margin-bottom: 3.7vw;
-            li {
-                @extend %clearfix;
-                float: left;
-                width: 50%;
-                text-align: center;
-                display: table;
-                &:last-child {
-                    border-left: 1px solid #9fbdc9;
-                }
-                >* {
-                    display: table-cell;
-                    padding: 0.8vw 0;
-                }
-                p {
-                    padding: 0.5vw 0;
-                    color: $yellow;
-                    font-size: 3.2vw;
-                    font-weight: bold;
-                }
-            }
-        }
+    .imgContent {
+        padding: 4vw 0 2vw;
     }
+    // .table_cost {
+    //     margin-top: 10px;
+    //     background: #eaeaea;
+    //     padding: 2.5vw;
+    //     color: #9fbdc9;
+    //     line-height: 1.6;
+    //     .yellow {
+    //         color: $yellow;
+    //         border: 1px solid $yellow;
+    //         padding: 2px 2px;
+    //     }
+    //     .ico_number {
+    //         background: #9fbdc9;
+    //         color: #eaeaea;
+    //         font-size: 3vw;
+    //         padding: 1.2vw 1.5vw 0.4vw;
+    //         margin-right: 5px;
+    //     }
+    //     h4 {
+    //         padding-bottom: 1.3vw;
+    //         font-size: 2.8vw;
+    //     }
+    //     h5 {
+    //         font-size: 2.8vw;
+    //         width: 40%;
+    //         background: url('../images/root/cost/pattern.png');
+    //         background-size: 100%;
+    //     }
+    //     .row_list_cost {
+    //         @extend %clearfix;
+    //         border: 1px solid #9fbdc9;
+    //         margin-bottom: 3.7vw;
+    //         li {
+    //             @extend %clearfix;
+    //             float: left;
+    //             width: 50%;
+    //             text-align: center;
+    //             display: table;
+    //             &:last-child {
+    //                 border-left: 1px solid #9fbdc9;
+    //             }
+    //             >* {
+    //                 display: table-cell;
+    //                 padding: 0.8vw 0;
+    //             }
+    //             p {
+    //                 padding: 0.5vw 0;
+    //                 color: $yellow;
+    //                 font-size: 3.2vw;
+    //                 font-weight: bold;
+    //             }
+    //         }
+    //     }
+    // }
 }
 /*-----------------------
         Page QA

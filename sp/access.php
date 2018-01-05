@@ -25,7 +25,7 @@
                         <p class="text">◎ 東京メトロ日比谷線「神谷町」駅２番出口。
                         <br>２番出口を背にして左へ２つ目のビルです。</p>
                         <div class="imgContent">
-                            <img src="images/root/access/map.png" alt="">
+                            <a href="https://goo.gl/maps/Tt1TbjTwPYH2" target="_blank"><img src="images/root/access/map.png" alt=""></a>
                         </div>
                         <p class="text">地図をクリックすると、別ウィンドウで詳細な地図が開きます。</p>
                         <table class="table_access">

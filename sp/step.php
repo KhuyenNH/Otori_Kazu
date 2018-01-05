@@ -30,7 +30,7 @@
                                 <p class="noteStep">
                                     ※相談料は<span class="red">初回に限り無料</span>となります。
                                 </p>
-                                <p class="linkPlay"><i class="fa fa-play-circle"></i><a href="">相談無料の理由とは？</a></p>
+                                <p class="linkPlay"><i class="fa fa-play-circle"></i><a href="cost.php">相談無料の理由とは？</a></p>
                                 <div class="note_description">
                                     <ul>
                                         <li>※相談時間は１時間程度が目安です。</li>
@@ -69,7 +69,7 @@
                             <div class="description">
                                 <h3 class="title_A">ご相談内容を踏まえて、<br>費用をお見積もりします。</h3>
                                 <p class="text">ご相談いただいた事案にかかる着手金・報酬金について、お見積もりを作成し、その明細についてご説明させていただきます。</p>
-                                <p class="linkPlay"><i class="fa fa-play-circle"></i><a href="">着手金・報酬金について</a></p>
+                                <p class="linkPlay"><i class="fa fa-play-circle"></i><a href="cost.php#anchor_costTitle">着手金・報酬金について</a></p>
                             </div>
                         </div>
                         <!-- /stepItems -->

@@ -26,25 +26,15 @@
                             <div class="description">
                                 <p class="text">以前いた会社を下記のようなトラブルが原因で辞めた、または辞めさせられたという方はいらっしゃるでしょうか。もし該当するものがあれば、不当解雇による解決金や残業代未払い金などを請求できる可能性があります。心当たりのある方は、ぜひ一度、当法律事務所にご相談ください。</p>
                                 <div class="listCheckBox">
-                                    <p class="itemsCheck">
-                                        <input type="checkbox" id="checkbox_01">
-                                        <label for="checkbox_01">自分に特に責任がないのに<br>退職させられた</label>
+                                    <p class="itemsCheck"><i class="fa fa-square-o"></i>自分に特に責任がないのに<br>退職させられた
                                     </p>
-                                    <p class="itemsCheck">
-                                        <input type="checkbox" id="checkbox_02">
-                                        <label for="checkbox_02">連日、長時間の残業をさせられていた</label>
+                                    <p class="itemsCheck"><i class="fa fa-square-o"></i>連日、長時間の残業をさせられていた
                                     </p>
-                                    <p class="itemsCheck">
-                                        <input type="checkbox" id="checkbox_03">
-                                        <label for="checkbox_03">上司のしつこい<br>パワハラが理由で退社した</label>
+                                    <p class="itemsCheck"><i class="fa fa-square-o"></i>上司のしつこい<br>パワハラが理由で退社した
                                     </p>
-                                    <p class="itemsCheck">
-                                        <input type="checkbox" id="checkbox_04">
-                                        <label for="checkbox_04">「退職届を出せ」と<br>無理矢理迫られ退職した</label>
+                                    <p class="itemsCheck"><i class="fa fa-square-o"></i>「退職届を出せ」と<br>無理矢理迫られ退職した
                                     </p>
-                                    <p class="itemsCheck">
-                                        <input type="checkbox" id="checkbox_05">
-                                        <label for="checkbox_05">給料がきちんと支払われなかった　など</label>
+                                    <p class="itemsCheck"><i class="fa fa-square-o"></i>給料がきちんと支払われなかった　など
                                     </p>
                                 </div>
                                 <p class="text">以下では、当法律事務所で解決した労働トラブルの事案をご紹介いたします。</p>

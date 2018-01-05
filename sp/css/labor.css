@@ -27,6 +27,7 @@
   color: #010101;
   border-bottom: 2px solid #c4c4c4;
   padding-bottom: 3.5vw;
+  text-decoration: underline;
 }
 
 /* Custom checkbox*/
@@ -243,6 +244,19 @@ input[type=checkbox]:checked + label:before {
   font-weight: bold;
 }
 
+#trouble__local-01 .table_rep td {
+  font-size: 3.6vw;
+  line-height: 1.5;
+  vertical-align: top;
+  padding-bottom: 2vw;
+  padding-left: 10px;
+}
+
+#trouble__local-01 .table_rep td:first-child {
+  font-weight: bold;
+  padding-left: 0px;
+}
+
 #trouble__local-01 .table_qa_top {
   padding: 0vw 4.6vw 4vw;
   background: #f4fcff;
@@ -279,8 +293,13 @@ input[type=checkbox]:checked + label:before {
   font-weight: bold;
 }
 
+#trouble__local-01 .toTop {
+  margin-bottom: 8vw;
+  border-bottom: 1px solid #c4c4c4;
+}
+
 #trouble__local-01 .listButton_01 {
-  padding-top: 18vw;
+  padding-top: 10vw;
 }
 
 /*-----------------------
@@ -288,10 +307,6 @@ input[type=checkbox]:checked + label:before {
 -----------------------------------------*/
 #advice1__local-01 {
   padding-top: 9vw;
-}
-
-#advice1__local-01 .listCheckBox {
-  padding-top: 6.5vw;
 }
 
 #advice1__local-01 .post {
@@ -308,16 +323,6 @@ input[type=checkbox]:checked + label:before {
 }
 
 #advice1__local-01 .orange2 {
-  font-weight: bold;
-}
-
-#advice1__local-01 .itemsCheck {
-  padding-bottom: 4.6vw;
-  color: #418cac;
-  line-height: 1.5;
-  padding-left: 5.6vw;
-  text-indent: -1.6vw;
-  font-size: 4vw;
   font-weight: bold;
 }
 
@@ -343,6 +348,20 @@ input[type=checkbox]:checked + label:before {
   padding-top: 6.5vw;
 }
 
+#advice2__local-01 .itemsCheck {
+  padding-bottom: 4.6vw;
+  color: #418cac;
+  line-height: 1.5;
+  padding-left: 5vw;
+  text-indent: -2.5vw;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+#advice2__local-01 .itemsCheck .fa {
+  margin-right: 1.5vw;
+}
+
 #advice2__local-01 .post {
   padding-bottom: 8vw;
 }
@@ -353,16 +372,6 @@ input[type=checkbox]:checked + label:before {
 }
 
 #advice2__local-01 .orange2 {
-  font-weight: bold;
-}
-
-#advice2__local-01 .itemsCheck {
-  padding-bottom: 4.6vw;
-  color: #418cac;
-  line-height: 1.5;
-  padding-left: 5.6vw;
-  text-indent: -1.6vw;
-  font-size: 4vw;
   font-weight: bold;
 }
 

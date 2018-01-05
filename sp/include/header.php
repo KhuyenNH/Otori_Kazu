@@ -25,12 +25,39 @@
                 <li><a href="<?php echo BASE_URL ?>access.php">アクセス</a></li>
             </ul>
         </li>
+        <!-- /sub_next -->
         <li class="sub_next">
             <a href="">労働問題<i class="fa fa-plus"></i></a>
             <ul class="sub_nav_2">
                 <li><a href="<?php echo BASE_URL ?>labor/merit.php">相談するメリット</a></li>
                 <li><a href="<?php echo BASE_URL ?>labor/solution.php">解決方法</a></li>
+                <li><a href="<?php echo BASE_URL ?>labor/advice1.php">在職中の方へアドバイス</a></li>
+                <li><a href="<?php echo BASE_URL ?>labor/advice2.php">離職中の方へアドバイス</a></li>
+                <li><a href="<?php echo BASE_URL ?>labor/trouble.php">労働トラブルQ&A</a></li>
             </ul>
         </li>
+        <!-- /sub_next -->
+        <li class="sub_next">
+            <a href="">離婚<i class="fa fa-plus"></i></a>
+            <ul class="sub_nav_2">
+                <li><a href="<?php echo BASE_URL ?>divorce/merit.php">相談するメリット</a></li>
+                <li><a href="<?php echo BASE_URL ?>divorce/solution.php">解決方法</a></li>
+                <li><a href="<?php echo BASE_URL ?>divorce/advice.php">離婚を考えている方へのアドバイス</a></li>
+                <li><a href="<?php echo BASE_URL ?>divorce/case.php">解決事例</a></li>
+                <li><a href="<?php echo BASE_URL ?>divorce/trouble.php">離婚トラブルQ&A</a></li>
+            </ul>
+        </li>
+        <!-- /sub_next -->
+        <li class="sub_next">
+            <a href="">相続・遺言<i class="fa fa-plus"></i></a>
+            <ul class="sub_nav_2">
+                <li><a href="<?php echo BASE_URL ?>inheritance/merit.php">相談するメリット</a></li>
+                <li><a href="<?php echo BASE_URL ?>inheritance/solution.php">解決方法</a></li>
+                <li><a href="<?php echo BASE_URL ?>inheritance/advice.php">遺産を残す立場の方へのアドバイス</a></li>
+                <li><a href="<?php echo BASE_URL ?>inheritance/case.php">解決事例</a></li>
+                <li><a href="<?php echo BASE_URL ?>inheritance/trouble.php">離婚トラブルQ&A</a></li>
+            </ul>
+        </li>
+        <!-- /sub_next -->
     </ul>
 </nav>
