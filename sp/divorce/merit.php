@@ -19,7 +19,7 @@
             <!-- /header -->
             <h2 class="title_header">離婚｜<span>弁護士に相談するメリット</span></h2>
             <!-- /header -->
-            <div class="page-main pB3">
+            <div class="page-main pB4">
                 <div id="advice__local-01">
                     <div class="container_box">
                         <div class="post">

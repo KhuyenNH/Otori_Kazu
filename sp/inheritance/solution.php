@@ -19,7 +19,7 @@
             <!-- /header -->
             <h2 class="title_header">相続・遺言｜<span>相続問題の解決方法</span></h2>
             <!-- /header -->
-            <div class="page-main pB3">
+            <div class="page-main">
                 <div id="case_local-01">
                     <div class="container_box">
                         <div class="post">
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <!-- /post -->
-                        <div class="post">
+                        <div class="post pB4">
                             <h5 class="title_tag blue">第2ステップ</h5>
                             <h2 class="title_h2 brd">遺産分割協議・遺産分割調停<br>・遺産分割審判</h2>
                             <div class="description">

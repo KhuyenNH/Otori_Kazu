@@ -3,7 +3,7 @@
 /* Component inheritance
 -----------------------------------------*/
 .page-main {
-    padding-top: 8vw;
+    padding-top: 9vw;
 }
 .title_header {
     background: #6d4d7e;
@@ -22,10 +22,6 @@
 .imgContent {
     padding: 2vw 0 3vw;
 }
-.text {
-    font-size: 4vw;
-}
-
 .title_h2 {
     line-height: 1.5;
     padding-bottom: 2.9vw;
@@ -105,6 +101,7 @@
     }
     .table_qa_top {
         padding: 0vw 4.6vw 4vw;
+        margin-bottom: 9vw;
         background: #e6deeb;
         font-size: 4vw;
         .group_qa {
@@ -143,7 +140,7 @@
     .box_details {
         margin-top: 7vw;
         border: 1.2vw solid #ebe4ef;
-        padding: 2vw 3.6vw;
+        padding: 2vw 3.6vw 0;
         .title_h3 {
             margin-top: -11vw;
             margin-bottom: 2vw;

@@ -300,6 +300,7 @@ input[type=checkbox]:checked + label:before {
 
 #advice1__local-01 .post .title_h2 {
   margin-bottom: 2.2vw;
+  font-size: 4.5vw;
 }
 
 #advice1__local-01 .imgContent {
@@ -374,4 +375,8 @@ input[type=checkbox]:checked + label:before {
 #advice2__local-01 .box_details .title_h3 {
   margin-top: -11vw;
   margin-bottom: 2vw;
+}
+
+#advice2__local-01 .listButton_01 {
+  padding: 3vw 0 10vw;
 }

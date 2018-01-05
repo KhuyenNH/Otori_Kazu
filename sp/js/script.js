@@ -27,4 +27,13 @@ $(document).ready(function() {
         }, 500);
         return false;
     });
+
+    // Scrool bookmark
+    $('a[href^="#"]').click(function() {
+        var the_id = $(this).attr("href");
+        $('html, body').animate({
+            scrollTop: $(the_id).offset().top - 70
+        }, 1000);
+        return false;
+    });
 });

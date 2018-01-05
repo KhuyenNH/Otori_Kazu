@@ -140,7 +140,7 @@ body {
 /*------------------- Component -------------------*/
 .title_header {
   background: #25425c;
-  font-size: 2.4vw;
+  font-size: 2.5vw;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -188,7 +188,7 @@ body {
 }
 
 .text {
-  font-size: 3.9vw;
+  font-size: 4vw;
   line-height: 1.7;
 }
 
@@ -196,7 +196,7 @@ body {
   padding: 2.3vw 5vw 2vw;
   background: #8c8c8c;
   font-size: 4.2vw;
-  color: #ffffff;
+  color: #ffffff !important;
   border-radius: 50px;
   display: inline-block;
   margin-bottom: 2vw;
@@ -216,7 +216,6 @@ body {
 
 .title_tag.orange {
   background: #e38807;
-  color: #ffffff;
 }
 
 .linkPlay {
@@ -378,6 +377,14 @@ body {
 
 .pB3 {
   padding-bottom: 3vw !important;
+}
+
+.pB4 {
+  padding-bottom: 4vw !important;
+}
+
+.pB6 {
+  padding-bottom: 6vw !important;
 }
 
 .pB10 {

@@ -1,20 +1,19 @@
 <header id="header">
     <h1 class="logo"><a href="<?php echo BASE_URL ?>"><img src="<?php echo BASE_URL ?>images/common/logo.jpg" alt="鳳和虎ノ門法律事務所"></a></h1>
-    <div class="iconHeader mail">
+    <a class="iconHeader mail" href="https://houwatoranomon.com/contact/" target="_blank">
         <div class="icon"><i class="fa fa-envelope"></i></div>
         <p class="nameIcon">メールで<br>相談予約</p>
-    </div>
-    <div class="iconHeader phone">
+    </a>
+    <a class="iconHeader phone" href="tel:03-6450-1795">
         <div class="icon"><i class="fa fa-phone"></i></div>
         <p class="nameIcon">電話で<br>相談予約</p>
-    </div>
-    <div class="iconHeader btnNav">
+    </a>
+    <a class="iconHeader btnNav">
         <div class="icon"><i class="fa fa-navicon"></i></div>
-    </div>
+    </a>
 </header>
 <nav id="navMain">
     <ul class="sub_nav_1">
-        <li><a href="<?php echo BASE_URL ?>">弁護士紹介</a></li>
         <li class="sub_next">
             <a href="">事務所について<i class="fa fa-plus"></i></a>
             <ul class="sub_nav_2">

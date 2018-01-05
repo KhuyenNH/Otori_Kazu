@@ -19,7 +19,7 @@
             <!-- /header -->
             <h2 class="title_header">相続・遺言｜<span>遺産を残す立場の方へのアドバイス</span></h2>
             <!-- /header -->
-            <div class="page-main pB12">
+            <div class="page-main pB6">
                 <div id="advice__local-01">
                     <div class="container_box">
                         <div class="post">

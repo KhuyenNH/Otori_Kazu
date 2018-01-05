@@ -22,16 +22,16 @@
                 <div class="section_local">
                     <ul>
                         <li class="row_01">
-                            <a href="">労働問題</a>
+                            <a href="#anchor_01">労働問題</a>
                         </li>
                         <li class="right row_01">
-                            <a href="">相続・遺言</a>
+                            <a href="#anchor_02">相続・遺言</a>
                         </li>
                         <li>
-                            <a href="">離婚</a>
+                            <a href="#anchor_03">離婚</a>
                         </li>
                         <li class="right">
-                            <a href="">顧問契約</a>
+                            <a href="#anchor_04">顧問契約</a>
                         </li>
                     </ul>
                 </div>
@@ -41,7 +41,7 @@
                 <div id="works__local-01">
                     <div class="container_box">
                         <div class="post">
-                            <h2 class="title_h2">労働問題</h2>
+                            <h2 class="title_h2" id="anchor_01">労働問題</h2>
                             <div class="thumbnews"><img src="images/root/works/thumb_news_01_D.jpg" alt=""></div>
                             <div class="description">
                                 <p class="text">ブラック企業という言葉が流行るほど、労働者と企業間のトラブルは増加しています。解雇・残業代・パワハラ・セクハラなど、職場で起こるトラブルに関しては､専用サイトを設けておりますので､ご覧ください。</p>
@@ -49,7 +49,7 @@
                         </div>
                         <!-- /post -->
                         <div class="post">
-                            <h2 class="title_h2">相続・遺言</h2>
+                            <h2 class="title_h2" id="anchor_02">相続・遺言</h2>
                             <div class="thumbnews"><img src="images/root/works/thumb_news_02_D.jpg" alt=""></div>
                             <div class="description">
                                 <p class="text">愛人にすべての財産を相続すると遺言状に書かれていた、一手に親の介護を引き受けていたのに遺産相続分が少ない、亡くなった親と同居していた長男があからさまな遺産隠しをしていて兄弟に相続させないつもりだ、など、遺産相続をめぐってはさまざまなトラブルが起こってしまいがちです。<br>遺言書を作成しておくことは、事前の予防策として有効ですが、法律を知らずに作成すると、そもそも遺言としての効力がなかったり、逆にその遺言書が後々トラブルの原因になってしまうこともあり得ます。<br>遺産相続のトラブルや遺言書の作成時にはぜひご相談ください。</p>
@@ -57,7 +57,7 @@
                         </div>
                         <!-- /post -->
                         <div class="post">
-                            <h2 class="title_h2">離婚</h2>
+                            <h2 class="title_h2" id="anchor_03">離婚</h2>
                             <div class="thumbnews"><img src="images/root/works/thumb_news_03_D.jpg" alt=""></div>
                             <div class="description">
                                 <p class="text">離婚問題については、不貞行為やDVに対する責任としての、いわゆる慰謝料や財産分与に関する相談をよく承ります。<br>
@@ -67,7 +67,7 @@
                         </div>
                         <!-- /post -->
                         <div class="post">
-                            <h2 class="title_h2">顧問契約</h2>
+                            <h2 class="title_h2" id="anchor_04">顧問契約</h2>
                             <div class="thumbnews"><img src="images/root/works/thumb_news_04_D.jpg" alt=""></div>
                             <div class="description">
                                 <p class="text">顧問契約は、企業や個人の方が毎月一定額を法律事務所に支払うことで、問題の種別を問わず顧問弁護士に相談できるというものです。<br>
