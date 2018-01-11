@@ -68,10 +68,10 @@
                         <!-- /solutionItems -->
                         <div class="listButton_01">
                             <ul>
-                                <li><a href="#"><img src="<?php echo BASE_URL ?>images/labor/solution/nav_accor_01.png" alt="弁護士に相談するメリット"></a></li>
-                                <li><a href="#"><img src="<?php echo BASE_URL ?>images/labor/solution/nav_accor_02.png" alt="労働問題の解決方法"></a></li>
-                                <li><a href="#"><img src="<?php echo BASE_URL ?>images/labor/solution/nav_accor_03.png" alt="在職中の方へのアドバイス"></a></li>
-                                <li><a href="#"><img src="<?php echo BASE_URL ?>images/labor/solution/nav_accor_04.png" alt="離職中の方へのアドバイス"></a></li>
+                                <li><a href="<?php echo BASE_URL ?>labor/merit.php"><img src="<?php echo BASE_URL ?>images/labor/solution/nav_accor_01.png" alt="弁護士に相談するメリット"></a></li>
+                                <li><a href="<?php echo BASE_URL ?>labor/solution.php"><img src="<?php echo BASE_URL ?>images/labor/solution/nav_accor_02.png" alt="労働問題の解決方法"></a></li>
+                                <li><a href="<?php echo BASE_URL ?>labor/advice1.php"><img src="<?php echo BASE_URL ?>images/labor/solution/nav_accor_03.png" alt="在職中の方へのアドバイス"></a></li>
+                                <li><a href="<?php echo BASE_URL ?>labor/advice2.php"><img src="<?php echo BASE_URL ?>images/labor/solution/nav_accor_04.png" alt="離職中の方へのアドバイス"></a></li>
                             </ul>
                         </div>
                         <!-- /listButton_01 -->

@@ -28,11 +28,12 @@ $(document).ready(function() {
         return false;
     });
 
+    var heightNav = parseInt($('#header').outerHeight());
     // Scrool bookmark
     $('a[href^="#"]').click(function() {
         var the_id = $(this).attr("href");
         $('html, body').animate({
-            scrollTop: $(the_id).offset().top - 70
+            scrollTop: $(the_id).offset().top - (heightNav + 5)
         }, 1000);
         return false;
     });
@@ -41,7 +42,7 @@ $(document).ready(function() {
     if ($(hastUrl).length) {
         if(hastUrl === hastUrl) {
             $('html, body').animate({
-                scrollTop: $(hastUrl).offset().top - 70
+                scrollTop: $(hastUrl).offset().top - (heightNav + 5)
             }, 400);
         }
     }
